@@ -1,6 +1,6 @@
 %define name dbview
-%define version 1.0.3
-%define release %mkrel 2
+%define version 1.0.4
+%define release %mkrel 1
 
 Summary: Dbview - view dBase files
 Name: %{name}
@@ -19,8 +19,7 @@ You can also use it to convert your old .dbf files for further use with Unix.
 %prep
 rm -rf $RPM_BUILD_ROOT
 
-%setup -n dbview-1.0.3
-%patch
+%setup
 
 %build
 make "CFLAGS=$RPM_OPT_FLAGS -pipe"
