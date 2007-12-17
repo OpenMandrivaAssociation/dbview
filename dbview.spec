@@ -10,7 +10,6 @@ Source: %{name}-%{version}.tar.bz2
 Patch: %name-patch.bz2
 License: GPL
 Group: Databases
-BuildRoot: %_tmppath/%{name}-buildroot
 
 %description
 Dbview is a little tool that will display dBase III and IV files. 
