@@ -1,6 +1,6 @@
 %define name dbview
 %define version 1.0.4
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: Dbview - view dBase files
 Name: %{name}
