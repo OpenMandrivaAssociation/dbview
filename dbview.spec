@@ -2,7 +2,7 @@
 %define version 1.0.4
 %define release %mkrel 5
 
-Summary: Dbview - view dBase files
+Summary: - view dBase files
 Name: %{name}
 Version: %{version}
 Release: %{release}
