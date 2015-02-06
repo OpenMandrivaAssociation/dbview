@@ -1,7 +1,7 @@
 Summary: View dBase files
 Name:    dbview
 Version: 1.0.4
-Release: 6
+Release: 7
 Source:  %{name}-%{version}.tar.bz2
 Patch:   %{name}-patch.bz2
 License: GPL
