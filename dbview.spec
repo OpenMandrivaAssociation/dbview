@@ -7,6 +7,7 @@ Patch:   %{name}-patch.bz2
 License: GPL
 Group:   Databases
 
+BuildRequires:	make
 %description
 Dbview is a little tool that will display dBase III and IV files. 
 You can also use it to convert your old .dbf files for further use with Unix.
